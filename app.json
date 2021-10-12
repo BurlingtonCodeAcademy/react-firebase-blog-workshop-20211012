@@ -1,0 +1,20 @@
+{
+  "stack": "heroku-20",
+  "buildpacks": [
+    { "url": "heroku/nodejs" }
+  ],
+  "description": "A React and Firebase blog workshop ",
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "react-firebase-blog-workshop",
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "yarn run build"
+      }
+    }
+  }
+}
